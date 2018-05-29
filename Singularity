@@ -31,14 +31,14 @@ sudo apt-get install vim
 ################################################################################
 # Install torch and torch dependencies
 ################################################################################
-git clone https://github.com/torch/distro.git ~/torch --recursive
-cd ~/torch
-bash -y install-deps
-cd
-git clone https://github.com/deepmind/torch-hdf5
-sudo apt-get install libhdf5-serial-dev hdf5-tools
-luarocks make hdf5-0-0.rockspec LIBHDF5_LIBDIR="/usr/lib/x86_64-linux-gnu/"
-luarocks install qtlua
+# git clone https://github.com/torch/distro.git ~/torch --recursive
+# cd ~/torch
+# bash -y install-deps
+# cd
+# git clone https://github.com/deepmind/torch-hdf5
+# sudo apt-get install libhdf5-serial-dev hdf5-tools
+# luarocks make hdf5-0-0.rockspec LIBHDF5_LIBDIR="/usr/lib/x86_64-linux-gnu/"
+# luarocks install qtlua
 
 ################################################################################
 # Install PIP from EPEL and upgrade it to the latest version
