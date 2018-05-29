@@ -9,8 +9,8 @@ From: ubuntu:17.04
 # Copy any necessary files into the container
 ################################################################################
 %files
-./etc/profile.d/z_container_prompt.sh  /etc/profile.d/z_container_prompt.sh
-./etc/profile.d/z_container_prompt.csh /etc/profile.d/z_container_prompt.csh
+#./etc/profile.d/z_container_prompt.sh  /etc/profile.d/z_container_prompt.sh
+#./etc/profile.d/z_container_prompt.csh /etc/profile.d/z_container_prompt.csh
  
 %post
 ################################################################################
