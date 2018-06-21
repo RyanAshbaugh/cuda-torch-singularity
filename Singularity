@@ -3,7 +3,7 @@
 ################################################################################
 
 BootStrap: docker
-From: kaixhin:cuda-torch
+From: kaixhin/cuda-torch
  
 ################################################################################
 # Copy any necessary files into the container
