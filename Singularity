@@ -27,7 +27,7 @@ umask 0022
 # Install additional packages
 ################################################################################
 # apt-get install vim
-apt-get install git
+# apt-get install git
 
 ################################################################################
 # Install torch and torch dependencies
