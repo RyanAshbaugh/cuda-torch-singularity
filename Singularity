@@ -53,8 +53,8 @@ umask 0022
 ################################################################################
 # Create directories to enable access to common HPCC mount points
 ################################################################################
-mkdir /boot
-mkdir /cvmfs
+# mkdir /boot
+# mkdir /cvmfs
 mkdir -p /mnt/home
 mkdir -p /mnt/research
 mkdir -p /mnt/dfs17
