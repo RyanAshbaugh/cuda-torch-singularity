@@ -26,7 +26,7 @@ umask 0022
 ################################################################################
 # Install additional packages
 ################################################################################
-apt-get install vim
+# apt-get install vim
 
 ################################################################################
 # Install torch and torch dependencies
@@ -43,12 +43,12 @@ apt-get install vim
 ################################################################################
 # Install PIP from EPEL and upgrade it to the latest version
 ################################################################################
-sudo apt-get -y install epel-release
-sudo apt-get -y install python3-pip python-pip
-sudo apt-get -y install python3-tk
-pip  install --upgrade pip
-pip3 install --upgrade pip
-pip  install --upgrade virtualenv
+# sudo apt-get -y install epel-release
+# sudo apt-get -y install python3-pip python-pip
+# sudo apt-get -y install python3-tk
+# pip  install --upgrade pip
+# pip3 install --upgrade pip
+# pip  install --upgrade virtualenv
 
 ################################################################################
 # Create directories to enable access to common HPCC mount points
