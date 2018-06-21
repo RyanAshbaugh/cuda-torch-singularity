@@ -3,7 +3,7 @@
 ################################################################################
 
 BootStrap: docker
-From: ubuntu:16.04
+From: kaixhin:cuda-torch
  
 ################################################################################
 # Copy any necessary files into the container
